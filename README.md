@@ -1,13 +1,12 @@
 # Food Finder
 
-Food Finder è un'applicazione web che ti aiuta a trovare deliziose ricette in base agli ingredienti che hai a disposizione. Utilizzando l'API di Edamam, puoi cercare ricette inserendo semplicemente gli ingredienti desiderati e ottenere una lista di ricette complete di immagini, ingredienti e link per visualizzare la ricetta completa.
+Food Finder è un'applicazione web che ti aiuta a trovare delle ricette in base agli ingredienti che hai a disposizione. Utilizzando l'API di Edamam, puoi cercare ricette inserendo semplicemente gli ingredienti desiderati(sia in Italiano e in Inglese(preferibilmente in inglese) e ottenere una lista di ricette complete di immagini, ingredienti e link per visualizzare la ricetta completa.
 
 ## Caratteristiche
 - Cerca ricette in base agli ingredienti inseriti.
 - Visualizza una lista di ricette con immagini, ingredienti e link per la ricetta completa.
 - Layout responsivo e accattivante grazie a Bootstrap 5.
-- Animazioni e transizioni per un'esperienza utente migliorata.
-
+- 
 ## Tecnologie Utilizzate
 - HTML5
 - CSS3
