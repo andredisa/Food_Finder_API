@@ -15,8 +15,6 @@ Food Finder è un'applicazione web che ti aiuta a trovare deliziose ricette in b
 - JavaScript
 - Edamam API
 
-## Come Iniziare
-
 ### Prerequisiti
 - Un browser web moderno (Google Chrome, Mozilla Firefox, etc.)
 
