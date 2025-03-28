@@ -1,31 +1,31 @@
 # Food Finder
 
-Food Finder è un'applicazione web che ti aiuta a trovare delle ricette in base agli ingredienti che hai a disposizione. Utilizzando l'API di Edamam, puoi cercare ricette inserendo semplicemente gli ingredienti desiderati(sia in Italiano e in Inglese(preferibilmente in inglese) e ottenere una lista di ricette complete di immagini, ingredienti e link per visualizzare la ricetta completa.
+Food Finder is a web application that helps you find recipes based on the ingredients you have available. Using the Edamam API, you can search for recipes by simply entering the desired ingredients (both in Italian and English, preferably in English) and get a list of recipes complete with images, ingredients, and links to view the full recipe.
 
-## Caratteristiche
-- Cerca ricette in base agli ingredienti inseriti.
-- Visualizza una lista di ricette con immagini, ingredienti e link per la ricetta completa.
-- Layout responsivo e accattivante grazie a Bootstrap 5.
-- 
-## Tecnologie Utilizzate
+## Features
+- Search for recipes based on the entered ingredients.
+- View a list of recipes with images, ingredients, and links to the full recipe.
+- Responsive and attractive layout thanks to Bootstrap 5.
+
+## Technologies Used
 - HTML5
 - CSS3
 - Bootstrap 5
 - JavaScript
 - Edamam API
 
-### Prerequisiti
-- Un browser web moderno (Google Chrome, Mozilla Firefox, etc.)
+### Prerequisites
+- A modern web browser (Google Chrome, Mozilla Firefox, etc.)
 
-## Struttura del Progetto
-- `index.html`: La pagina principale dell'applicazione.
-- `style.css`: File di stile CSS personalizzato.
-- `script.js`: File JavaScript contenente la logica per le chiamate API e la visualizzazione delle ricette.
+## Project Structure
+- `index.html`: The main page of the application.
+- `style.css`: Custom CSS stylesheet.
+- `script.js`: JavaScript file containing the logic for API calls and recipe display.
 
-## API Utilizzata
-Questo progetto utilizza l'API di [Edamam](https://developer.edamam.com/) per recuperare le ricette. Dovrai ottenere un'app ID e una chiave API da Edamam per far funzionare le chiamate API.
+## API Used
+This project uses the Edamam API to retrieve recipes. You will need to obtain an app ID and an API key from Edamam to make the API calls work.
 
-## Personalizzazione
-Per utilizzare la tua chiave API, sostituisci i seguenti valori nel file `script.js` con quelli ottenuti dal tuo account Edamam:
+## Customization
+To use your API key, replace the following values in the `script.js` file with those obtained from your Edamam account:
 ```javascript
-const response = await fetch(`https://api.edamam.com/search?q=${searchValue}&app_id=TUO_APP_ID&app_key=LA_TUA_CHIAVE_API&from=0&to=10`);
+const response = await fetch(`https://api.edamam.com/search?q=${searchValue}&app_id=YOUR_APP_ID&app_key=YOUR_API_KEY&from=0&to=10`);
