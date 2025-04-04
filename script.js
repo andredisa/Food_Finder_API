@@ -1,3 +1,7 @@
+// main.js
+import { API_ID, API_KEY } from 'ghost_file.js';
+
+
 const searchForm = document.querySelector('form');
 const searchInput = document.querySelector('#search');
 const resultsList = document.querySelector('#results');
@@ -9,10 +13,11 @@ searchForm.addEventListener('submit', (e) => {
 
 async function searchRecipes() {
     const searchValue = searchInput.value.trim();
-    const response = await fetch(`https://api.edamam.com/search?q=${searchValue}&app_id=85069887&app_key=4bfb758b594efeb89977f6811aef573b&from=0&to=10`);
+    const response = await fetch(`https://api.edamam.com/search?q=${searchValue}&app_id=${API_ID}&app_key=${API_KEY}&from=0&to=10`);
     const data = await response.json();
     displayRecipes(data.hits);
 }
+
 
 function displayRecipes(recipes) {
     let html = '';
