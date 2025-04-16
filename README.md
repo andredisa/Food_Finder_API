@@ -1,31 +1,99 @@
-# Food Finder
+# 🍽️ Food Finder
 
-Food Finder is a web application that helps you find recipes based on the ingredients you have available. Using the Edamam API, you can search for recipes by simply entering the desired ingredients (both in Italian and English, preferably in English) and get a list of recipes complete with images, ingredients, and links to view the full recipe.
+> **Food Finder** is a sleek and simple web app that helps you discover delicious recipes based on the ingredients you already have at home.  
+By leveraging the **Edamam API**, you can input ingredients (in **Italian** or preferably **English**) and instantly get curated recipe suggestions — complete with images, ingredient lists, and links to the full recipe instructions.
 
-## Features
-- Search for recipes based on the entered ingredients.
-- View a list of recipes with images, ingredients, and links to the full recipe.
-- Responsive and attractive layout thanks to Bootstrap 5.
+---
 
-## Technologies Used
-- HTML5
-- CSS3
-- Bootstrap 5
-- JavaScript
-- Edamam API
+## ✨ Features
 
-### Prerequisites
-- A modern web browser (Google Chrome, Mozilla Firefox, etc.)
+🔍 Search recipes using one or more ingredients  
+📸 View recipes with thumbnails, ingredient previews, and direct links  
+📱 **Responsive design** with a clean UI, thanks to **Bootstrap 5**  
+🌍 Support for Italian and English input (prefer English for better results)
 
-## Project Structure
-- `index.html`: The main page of the application.
-- `style.css`: Custom CSS stylesheet.
-- `script.js`: JavaScript file containing the logic for API calls and recipe display.
+---
 
-## API Used
-This project uses the Edamam API to retrieve recipes. You will need to obtain an app ID and an API key from Edamam to make the API calls work.
+## 🧰 Tech Stack
 
-## Customization
-To use your API key, replace the following values in the `script.js` file with those obtained from your Edamam account:
+| Technology   | Description                       |
+|--------------|-----------------------------------|
+| 🔤 HTML5      | Page structure                   |
+| 🎨 CSS3       | Custom styling                   |
+| 🎛️ Bootstrap 5 | Responsive layout framework      |
+| ⚙️ JavaScript | API requests and DOM manipulation |
+| 🌐 Edamam API | Recipe data & nutrition info     |
+
+---
+
+## 📂 Project Structure
+
+```bash
+/
+├── index.html     # Main entry point
+├── style.css      # Custom styles
+└── script.js      # JavaScript logic (API calls & UI updates)
+```
+
+---
+
+## 🔑 API Configuration
+
+This project uses the **Edamam Recipe Search API**.  
+To make it work, you’ll need:
+
+- An Edamam **App ID**
+- An Edamam **App Key**
+
+🔧 Update your `script.js` with your credentials:
+
 ```javascript
 const response = await fetch(`https://api.edamam.com/search?q=${searchValue}&app_id=YOUR_APP_ID&app_key=YOUR_API_KEY&from=0&to=10`);
+```
+
+👉 You can get these credentials by signing up at [Edamam Developer Portal](https://developer.edamam.com/edamam-recipe-api).
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+- A modern web browser (Chrome, Firefox, Edge, etc.)
+- An internet connection
+- Edamam API credentials (see above)
+
+### ▶️ How to Run
+1. Clone or download the repository
+2. Open `index.html` in your browser
+3. Enter ingredients and hit **Search**
+4. Explore recipes and click links for full instructions
+
+---
+
+## 🛠️ Future Improvements
+
+- 🍴 Add support for **diet filters** (e.g., vegan, keto, gluten-free)
+- 📝 Show **detailed nutrition info** per recipe
+- 💾 Add ability to **save favorite recipes**
+- 🌐 Implement **language detection** and auto-translation
+
+---
+
+## 📄 License
+
+This project is open-source and intended for educational purposes only.  
+Feel free to fork, modify, and use it as inspiration for your own culinary tools!
+
+---
+
+## 👨‍🍳 Created By
+
+Made with ❤️ for food and code.  
+If you found this useful or have feedback, feel free to reach out or connect!  
+
+🔗 [GitHub](https://github.com/andredisa)  
+📬 [Email](mailto:andreadisanti22@gmail.com)
+
+---
+
+### Bon appétit! 🍝
