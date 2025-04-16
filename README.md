@@ -29,10 +29,15 @@ By leveraging the **Edamam API**, you can input ingredients (in **Italian** or p
 ## 📂 Project Structure
 
 ```bash
-/
-├── index.html     # Main entry point
-├── style.css      # Custom styles
-└── script.js      # JavaScript logic (API calls & UI updates)
+.
+├── script/                      
+│   ├── script.js              # JavaScript logic (API calls & UI updates)
+├── style/                       
+│   ├──style.css               # Custom styles
+├── .gitignore                 # Git ignore file to exclude files from version control
+├── index.html                 # Main entry point
+├── README.md                  # Project documentation
+└── LICENSE                    # License information (MIT License)
 ```
 
 ---
@@ -96,4 +101,4 @@ If you found this useful or have feedback, feel free to reach out or connect!
 
 ---
 
-### Bon appétit! 🍝
+### Buon Appetito! 🍝
